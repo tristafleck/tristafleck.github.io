@@ -1,4 +1,5 @@
 console.log('JavaScript file linked correctly!')
+
 const hours = new Date().getHours() // get the current hour
 
 const isMorning = hours >= 4 && hours < 12 // is it morning?
