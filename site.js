@@ -18,4 +18,4 @@ if (isMorning) {
   welcomeDiv.textContent = "Welcome to my website."; 
 }
 
-localStorage.setItem("It's a secret to everybody.");
+localStorage.setItem("It's a secret to everybody.", "The treasure is buried underneath the lake.");
