@@ -18,4 +18,4 @@ if (isMorning) {
   welcomeDiv.textContent = "Welcome to my website."; 
 }
 
-localStorage.setItem("The teasure is buried beneath the old oak tree");
+localStorage.setItem("It's a secret to everybody.");
