@@ -1,10 +1,10 @@
 console.log('JavaScript file linked correctly!')
 
-const hours = new Date().getHours() // get the current hour
+const hours = new Date().getHours();
 
-const isMorning = hours >= 4 && hours < 12 // is it morning?
-const isAfternoon = hours >= 12 && hours < 17 // is it afternoon?
-const isEvening = hours >= 17 || hours < 4 // is it evening?
+const isMorning = hours >= 4 && hours < 12; 
+const isAfternoon = hours >= 12 && hours < 17; 
+const isEvening = hours >= 17 || hours < 4;
 
 const welcomeDiv = document.getElementById("welcome");
 
@@ -18,5 +18,7 @@ if (isMorning) {
   welcomeDiv.textContent = "Welcome to my website."; 
 }
 
-const secretMessage = localStorage.setItem("It's a secret to everybody.", "The treasure is buried underneath the lake.");
-const.log(secretMessage);
+localStorage.setItem("It's a secret to everybody.", "The treasure is buried underneath the lake.");
+
+const secretMessage = localStorage.setItem("It's a secret to everybody.");
+console.log(secretMessage);
