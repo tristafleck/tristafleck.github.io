@@ -20,5 +20,5 @@ if (isMorning) {
 
 localStorage.setItem("It's a secret to everybody.", "The treasure is buried underneath the lake.");
 
-const secretMessage = localStorage.setItem("It's a secret to everybody.");
+const secretMessage = localStorage.getItem("It's a secret to everybody.");
 console.log(secretMessage);
