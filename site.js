@@ -17,3 +17,5 @@ if (isMorning) {
 } else {
   welcomeDiv.textContent = "Welcome to my website."; 
 }
+
+localStorage.setItem("The teasure is buried beneath the old oak tree");
